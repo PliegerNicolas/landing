@@ -1,0 +1,58 @@
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 175px 0;
+  padding-right: 280px;
+  height: 160px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.banner p {
+  margin-top: 12px;
+  padding-right: 240px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 42px;
+  margin-left: 80px;
+}
+
+.apply-button {
+ color: white;
+ background-color: #6AD58B;
+ padding: 16px 28px;
+ border-radius: 20px;
+ margin-right: 480px;
+ margin-top: 20px;
+}
+
+.apply-button:hover {
+  background-color: #3AC162;
+  padding: 12px 20px;
+  border-radius: 22px;
+  transition: 0.3s;
+  color: #cbe9f7;
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    display: flex;
+    padding-right: 0;
+    justify-content: center;
+  }
+  .apply-button {
+    margin-right: 0;
+  }
+  .banner p {
+    text-align: center;
+    padding-right: 0;
+    width: 400px;
+  }
+  h1 {
+    text-align: center;
+    width: 400px;
+  }
+}
