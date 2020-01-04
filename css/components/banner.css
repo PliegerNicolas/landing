@@ -4,6 +4,8 @@
   background-position: center;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   min-height: 480px;
+  transition-timing-function: ease;
+  transition: 2s;
 }
 
 .text-box-banner {
