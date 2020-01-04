@@ -1,26 +1,26 @@
 .footer {
   background-color: #2C2B2B;
-  color: white;
+  color: white
 }
 
 .icon-list {
   display: inline-flex;
   margin-top: 30px;
-  margin-bottom: 12px;
+  margin-bottom: 12px
 }
 
 .icon-list img {
   height: 30px;
-  margin: 0 5px;
+  margin: 0 5px
 }
 
 .icon-credit {
   color: white;
   opacity: 0.6;
   font-size: 12px;
-  margin-top: 8px;
+  margin-top: 8px
 }
 
 .icon-credit a {
-  color: gray;
+  color: gray
 }

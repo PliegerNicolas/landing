@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 440px;
-  width: 100%;
+  width: 100%
 }
 
 .card {
@@ -15,28 +15,28 @@
   box-shadow: 0 0 4px rgba(0,0,0,0.2);
   height: 280px;
   width: 240px;
-  margin: 0 3%;
+  margin: 0 3%
 }
 
 .card-img {
-  height: 100px;
+  height: 100px
 }
 
 .card p {
   opacity: 0.5;
   width: 85%;
-  text-align: center;
+  text-align: center
 }
 
 h2 {
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
 @media (max-width: 1200px) {
   .container-cards {
-    flex-direction: column;
+    flex-direction: column
   }
   .card {
-    margin: 3% 0;
+    margin: 3% 0
   }
 }
