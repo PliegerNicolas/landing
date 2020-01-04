@@ -1,23 +1,26 @@
 .footer {
-position: absolute;
-bottom: 0;
-top: 970px;
-
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-
   background-color: #2C2B2B;
   color: white;
-  text-align: center;
-
-  padding-top: 110px;
 }
 
-@media (max-width: 1200px) {
-  .footer {
-    position: relative;
-    top: 500px;
-  }
+.icon-list {
+  display: inline-flex;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.icon-list img {
+  height: 30px;
+  margin: 0 5px;
+}
+
+.icon-credit {
+  color: white;
+  opacity: 0.6;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.icon-credit a {
+  color: gray;
 }
